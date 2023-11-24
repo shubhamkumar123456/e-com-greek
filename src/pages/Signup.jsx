@@ -21,7 +21,7 @@ const Signup = () => {
             phone:phoneRef.current.value,
             profession:professionRef.current.value
         }
-        let success=false;
+        let success=false
         let CheckUser=()=>{
             for(let i=0; i<arr.length; i++){
                 if(arr[i].email===emailRef.current.value){
